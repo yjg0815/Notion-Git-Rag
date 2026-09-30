@@ -1,0 +1,1761 @@
+[
+  {
+    "timestamp": "2026-09-23T01:44:26.619544+00:00",
+    "top_k": 5,
+    "num_queries": 3,
+    "avg_rerank_false": {
+      "recall": 0.8333333333333334,
+      "mrr": 1.0
+    },
+    "avg_rerank_true": {
+      "recall": 0.9166666666666666,
+      "mrr": 1.0
+    },
+    "per_query": [
+      {
+        "query": "유저랑 피드백 사이 관계를 왜 일대다로 설계했어?",
+        "rerank_false": {
+          "recall": 0.5,
+          "mrr": 1.0
+        },
+        "rerank_true": {
+          "recall": 1.0,
+          "mrr": 1.0
+        }
+      },
+      {
+        "query": "커밋 메시지는 어떤 규칙으로 써?",
+        "rerank_false": {
+          "recall": 1.0,
+          "mrr": 1.0
+        },
+        "rerank_true": {
+          "recall": 1.0,
+          "mrr": 1.0
+        }
+      },
+      {
+        "query": "JUnit 테스트는 어떻게 작성해?",
+        "rerank_false": {
+          "recall": 1.0,
+          "mrr": 1.0
+        },
+        "rerank_true": {
+          "recall": 0.75,
+          "mrr": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-23T01:44:40.495772+00:00",
+    "top_k": 3,
+    "num_queries": 3,
+    "avg_rerank_false": {
+      "recall": 0.6666666666666666,
+      "mrr": 1.0
+    },
+    "avg_rerank_true": {
+      "recall": 0.75,
+      "mrr": 1.0
+    },
+    "per_query": [
+      {
+        "query": "유저랑 피드백 사이 관계를 왜 일대다로 설계했어?",
+        "rerank_false": {
+          "recall": 0.5,
+          "mrr": 1.0
+        },
+        "rerank_true": {
+          "recall": 0.5,
+          "mrr": 1.0
+        }
+      },
+      {
+        "query": "커밋 메시지는 어떤 규칙으로 써?",
+        "rerank_false": {
+          "recall": 1.0,
+          "mrr": 1.0
+        },
+        "rerank_true": {
+          "recall": 1.0,
+          "mrr": 1.0
+        }
+      },
+      {
+        "query": "JUnit 테스트는 어떻게 작성해?",
+        "rerank_false": {
+          "recall": 0.5,
+          "mrr": 1.0
+        },
+        "rerank_true": {
+          "recall": 0.75,
+          "mrr": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-23T02:12:29.083660+00:00",
+    "top_k": 5,
+    "positive": {
+      "num_queries": 13,
+      "avg_rerank_false": {
+        "recall": 1.382051282051282,
+        "mrr": 0.8846153846153846
+      },
+      "avg_rerank_true": {
+        "recall": 1.5358974358974358,
+        "mrr": 0.9615384615384616
+      },
+      "per_query": [
+        {
+          "query": "유저랑 피드백 사이 관계를 왜 일대다로 설계했어?",
+          "rerank_false": {
+            "recall": 0.5,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 1.0,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "커밋 메시지는 어떤 규칙으로 써?",
+          "rerank_false": {
+            "recall": 1.0,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 1.0,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "JUnit 테스트는 어떻게 작성해?",
+          "rerank_false": {
+            "recall": 1.0,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 0.75,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "영상에서 텍스트 정보를 추출하는 방법에는 어떤 것들이 있어?",
+          "rerank_false": {
+            "recall": 1.0,
+            "mrr": 0.5
+          },
+          "rerank_true": {
+            "recall": 0.75,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "MissingServletRequestPartException 에러는 왜 나?",
+          "rerank_false": {
+            "recall": 4.0,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 4.0,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "배포를 AWS EC2 + Docker 수동 반복에서 GitHub Actions CI/CD로 바꾼 이유가 뭐야?",
+          "rerank_false": {
+            "recall": 1.0,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 1.0,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "자막 없는 영상에서 정보를 뽑을 때 왜 OCR을 썼어?",
+          "rerank_false": {
+            "recall": 1.0,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 1.0,
+            "mrr": 0.5
+          }
+        },
+        {
+          "query": "스웨거 페이지 자체에 접속이 안 될 때 어떻게 해결했어?",
+          "rerank_false": {
+            "recall": 0.0,
+            "mrr": 0.0
+          },
+          "rerank_true": {
+            "recall": 1.0,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "@ModelAttribute로 파일 업로드 받을 때 왜 바인딩이 안 됐어?",
+          "rerank_false": {
+            "recall": 4.0,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 4.0,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "h5로 저장한 모델을 다시 불러올 때 optimizer 경고가 왜 뜨고 어떻게 해결했어?",
+          "rerank_false": {
+            "recall": 1.0,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 2.0,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "Docker 이미지 빌드부터 EC2 배포까지 전체 CI/CD 흐름이 어떻게 돼?",
+          "rerank_false": {
+            "recall": 0.6666666666666666,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 0.6666666666666666,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "사용자가 말하기에서 느끼는 어려움과 그로부터 나온 니즈가 뭐였어?",
+          "rerank_false": {
+            "recall": 0.8,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 0.8,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "스웨거에서 토큰 없이 API 테스트하는 방법 알려줘",
+          "rerank_false": {
+            "recall": 2.0,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 2.0,
+            "mrr": 1.0
+          }
+        }
+      ]
+    },
+    "negative": {
+      "num_queries": 2,
+      "cases": [
+        {
+          "query": "쿠버네티스 Ingress 설정은 어떻게 했어?",
+          "rerank_false_top1": {
+            "page_title": "서버 배포",
+            "heading_path": [
+              "진행 상황"
+            ],
+            "distance": 0.6048439505603277
+          },
+          "rerank_true_top1": {
+            "page_title": "서버 배포",
+            "heading_path": [
+              "설정 파일"
+            ],
+            "relevance_score": 0.466796875
+          }
+        },
+        {
+          "query": "React Native로 모바일 앱 배포는 어떻게 했어?",
+          "rerank_false_top1": {
+            "page_title": "초기 아이디어",
+            "heading_path": [
+              "4. 플러터 패키지 사용"
+            ],
+            "distance": 0.6091195344924927
+          },
+          "rerank_true_top1": {
+            "page_title": "서버 배포",
+            "heading_path": [
+              "Github Action을 통해 CI/CD 자동화"
+            ],
+            "relevance_score": 0.45703125
+          }
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-09-23T02:14:24.145512+00:00",
+    "top_k": 5,
+    "positive": {
+      "num_queries": 13,
+      "avg_rerank_false": {
+        "recall": 0.8435897435897436,
+        "mrr": 0.8846153846153846
+      },
+      "avg_rerank_true": {
+        "recall": 0.9205128205128206,
+        "mrr": 0.9615384615384616
+      },
+      "per_query": [
+        {
+          "query": "유저랑 피드백 사이 관계를 왜 일대다로 설계했어?",
+          "rerank_false": {
+            "recall": 0.5,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 1.0,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "커밋 메시지는 어떤 규칙으로 써?",
+          "rerank_false": {
+            "recall": 1.0,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 1.0,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "JUnit 테스트는 어떻게 작성해?",
+          "rerank_false": {
+            "recall": 1.0,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 0.75,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "영상에서 텍스트 정보를 추출하는 방법에는 어떤 것들이 있어?",
+          "rerank_false": {
+            "recall": 1.0,
+            "mrr": 0.5
+          },
+          "rerank_true": {
+            "recall": 0.75,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "MissingServletRequestPartException 에러는 왜 나?",
+          "rerank_false": {
+            "recall": 1.0,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 1.0,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "배포를 AWS EC2 + Docker 수동 반복에서 GitHub Actions CI/CD로 바꾼 이유가 뭐야?",
+          "rerank_false": {
+            "recall": 1.0,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 1.0,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "자막 없는 영상에서 정보를 뽑을 때 왜 OCR을 썼어?",
+          "rerank_false": {
+            "recall": 1.0,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 1.0,
+            "mrr": 0.5
+          }
+        },
+        {
+          "query": "스웨거 페이지 자체에 접속이 안 될 때 어떻게 해결했어?",
+          "rerank_false": {
+            "recall": 0.0,
+            "mrr": 0.0
+          },
+          "rerank_true": {
+            "recall": 1.0,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "@ModelAttribute로 파일 업로드 받을 때 왜 바인딩이 안 됐어?",
+          "rerank_false": {
+            "recall": 1.0,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 1.0,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "h5로 저장한 모델을 다시 불러올 때 optimizer 경고가 왜 뜨고 어떻게 해결했어?",
+          "rerank_false": {
+            "recall": 1.0,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 1.0,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "Docker 이미지 빌드부터 EC2 배포까지 전체 CI/CD 흐름이 어떻게 돼?",
+          "rerank_false": {
+            "recall": 0.6666666666666666,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 0.6666666666666666,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "사용자가 말하기에서 느끼는 어려움과 그로부터 나온 니즈가 뭐였어?",
+          "rerank_false": {
+            "recall": 0.8,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 0.8,
+            "mrr": 1.0
+          }
+        },
+        {
+          "query": "스웨거에서 토큰 없이 API 테스트하는 방법 알려줘",
+          "rerank_false": {
+            "recall": 1.0,
+            "mrr": 1.0
+          },
+          "rerank_true": {
+            "recall": 1.0,
+            "mrr": 1.0
+          }
+        }
+      ]
+    },
+    "negative": {
+      "num_queries": 2,
+      "cases": [
+        {
+          "query": "쿠버네티스 Ingress 설정은 어떻게 했어?",
+          "rerank_false_top1": {
+            "page_title": "서버 배포",
+            "heading_path": [
+              "진행 상황"
+            ],
+            "distance": 0.6066307020123061
+          },
+          "rerank_true_top1": {
+            "page_title": "서버 배포",
+            "heading_path": [
+              "설정 파일"
+            ],
+            "relevance_score": 0.466796875
+          }
+        },
+        {
+          "query": "React Native로 모바일 앱 배포는 어떻게 했어?",
+          "rerank_false_top1": {
+            "page_title": "초기 아이디어",
+            "heading_path": [
+              "4. 플러터 패키지 사용"
+            ],
+            "distance": 0.6091195344924927
+          },
+          "rerank_true_top1": {
+            "page_title": "서버 배포",
+            "heading_path": [
+              "Github Action을 통해 CI/CD 자동화"
+            ],
+            "relevance_score": 0.45703125
+          }
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-09-23T02:30:08.039384+00:00",
+    "top_k": 5,
+    "positive": {
+      "num_queries": 13,
+      "averages": {
+        "dense": {
+          "recall": 0.8435897435897436,
+          "mrr": 0.8846153846153846
+        },
+        "dense_rerank": {
+          "recall": 0.9205128205128206,
+          "mrr": 0.9615384615384616
+        },
+        "hybrid": {
+          "recall": 0.8435897435897436,
+          "mrr": 0.8846153846153846
+        },
+        "hybrid_rerank": {
+          "recall": 0.9205128205128206,
+          "mrr": 0.9615384615384616
+        }
+      },
+      "per_query": [
+        {
+          "query": "유저랑 피드백 사이 관계를 왜 일대다로 설계했어?",
+          "metrics": {
+            "dense": {
+              "recall": 0.5,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 0.5,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "커밋 메시지는 어떤 규칙으로 써?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "JUnit 테스트는 어떻게 작성해?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 0.75,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 0.75,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "영상에서 텍스트 정보를 추출하는 방법에는 어떤 것들이 있어?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 0.5,
+              "rank": 2
+            },
+            "dense_rerank": {
+              "recall": 0.75,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 0.5,
+              "rank": 2
+            },
+            "hybrid_rerank": {
+              "recall": 0.75,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "MissingServletRequestPartException 에러는 왜 나?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "배포를 AWS EC2 + Docker 수동 반복에서 GitHub Actions CI/CD로 바꾼 이유가 뭐야?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "자막 없는 영상에서 정보를 뽑을 때 왜 OCR을 썼어?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 0.5,
+              "rank": 2
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 0.5,
+              "rank": 2
+            }
+          }
+        },
+        {
+          "query": "스웨거 페이지 자체에 접속이 안 될 때 어떻게 해결했어?",
+          "metrics": {
+            "dense": {
+              "recall": 0.0,
+              "mrr": 0.0,
+              "rank": null
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 0.0,
+              "mrr": 0.0,
+              "rank": null
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "@ModelAttribute로 파일 업로드 받을 때 왜 바인딩이 안 됐어?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "h5로 저장한 모델을 다시 불러올 때 optimizer 경고가 왜 뜨고 어떻게 해결했어?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "Docker 이미지 빌드부터 EC2 배포까지 전체 CI/CD 흐름이 어떻게 돼?",
+          "metrics": {
+            "dense": {
+              "recall": 0.6666666666666666,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 0.6666666666666666,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 0.6666666666666666,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 0.6666666666666666,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "사용자가 말하기에서 느끼는 어려움과 그로부터 나온 니즈가 뭐였어?",
+          "metrics": {
+            "dense": {
+              "recall": 0.8,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 0.8,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 0.8,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 0.8,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "스웨거에서 토큰 없이 API 테스트하는 방법 알려줘",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        }
+      ]
+    },
+    "negative": {
+      "num_queries": 2,
+      "cases": [
+        {
+          "query": "쿠버네티스 Ingress 설정은 어떻게 했어?",
+          "top1": {
+            "dense": {
+              "page_title": "서버 배포",
+              "heading_path": [
+                "진행 상황"
+              ],
+              "distance": 0.6048439505603277
+            },
+            "dense_rerank": {
+              "page_title": "서버 배포",
+              "heading_path": [
+                "설정 파일"
+              ],
+              "relevance_score": 0.466796875
+            },
+            "hybrid": {
+              "page_title": "서버 배포",
+              "heading_path": [
+                "진행 상황"
+              ],
+              "rrf_score": 0.01639344262295082
+            },
+            "hybrid_rerank": {
+              "page_title": "서버 배포",
+              "heading_path": [
+                "설정 파일"
+              ],
+              "relevance_score": 0.466796875
+            }
+          }
+        },
+        {
+          "query": "React Native로 모바일 앱 배포는 어떻게 했어?",
+          "top1": {
+            "dense": {
+              "page_title": "초기 아이디어",
+              "heading_path": [
+                "4. 플러터 패키지 사용"
+              ],
+              "distance": 0.6091195344924927
+            },
+            "dense_rerank": {
+              "page_title": "서버 배포",
+              "heading_path": [
+                "Github Action을 통해 CI/CD 자동화"
+              ],
+              "relevance_score": 0.45703125
+            },
+            "hybrid": {
+              "page_title": "초기 아이디어",
+              "heading_path": [
+                "4. 플러터 패키지 사용"
+              ],
+              "rrf_score": 0.01639344262295082
+            },
+            "hybrid_rerank": {
+              "page_title": "서버 배포",
+              "heading_path": [
+                "Github Action을 통해 CI/CD 자동화"
+              ],
+              "relevance_score": 0.45703125
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-09-23T02:34:10.021378+00:00",
+    "top_k": 5,
+    "positive": {
+      "num_queries": 13,
+      "averages": {
+        "dense": {
+          "recall": 0.8435897435897436,
+          "mrr": 0.8846153846153846
+        },
+        "dense_rerank": {
+          "recall": 0.9205128205128206,
+          "mrr": 0.9615384615384616
+        },
+        "hybrid": {
+          "recall": 0.8371794871794871,
+          "mrr": 0.9615384615384616
+        },
+        "hybrid_rerank": {
+          "recall": 0.9205128205128206,
+          "mrr": 0.9615384615384616
+        }
+      },
+      "per_query": [
+        {
+          "query": "유저랑 피드백 사이 관계를 왜 일대다로 설계했어?",
+          "metrics": {
+            "dense": {
+              "recall": 0.5,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 0.5,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "커밋 메시지는 어떤 규칙으로 써?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "JUnit 테스트는 어떻게 작성해?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 0.75,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 0.5,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 0.75,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "영상에서 텍스트 정보를 추출하는 방법에는 어떤 것들이 있어?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 0.5,
+              "rank": 2
+            },
+            "dense_rerank": {
+              "recall": 0.75,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 0.75,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 0.75,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "MissingServletRequestPartException 에러는 왜 나?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "배포를 AWS EC2 + Docker 수동 반복에서 GitHub Actions CI/CD로 바꾼 이유가 뭐야?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "자막 없는 영상에서 정보를 뽑을 때 왜 OCR을 썼어?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 0.5,
+              "rank": 2
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 0.5,
+              "rank": 2
+            }
+          }
+        },
+        {
+          "query": "스웨거 페이지 자체에 접속이 안 될 때 어떻게 해결했어?",
+          "metrics": {
+            "dense": {
+              "recall": 0.0,
+              "mrr": 0.0,
+              "rank": null
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 0.5,
+              "rank": 2
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "@ModelAttribute로 파일 업로드 받을 때 왜 바인딩이 안 됐어?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "h5로 저장한 모델을 다시 불러올 때 optimizer 경고가 왜 뜨고 어떻게 해결했어?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "Docker 이미지 빌드부터 EC2 배포까지 전체 CI/CD 흐름이 어떻게 돼?",
+          "metrics": {
+            "dense": {
+              "recall": 0.6666666666666666,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 0.6666666666666666,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 0.3333333333333333,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 0.6666666666666666,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "사용자가 말하기에서 느끼는 어려움과 그로부터 나온 니즈가 뭐였어?",
+          "metrics": {
+            "dense": {
+              "recall": 0.8,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 0.8,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 0.8,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 0.8,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "스웨거에서 토큰 없이 API 테스트하는 방법 알려줘",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        }
+      ]
+    },
+    "negative": {
+      "num_queries": 2,
+      "cases": [
+        {
+          "query": "쿠버네티스 Ingress 설정은 어떻게 했어?",
+          "top1": {
+            "dense": {
+              "page_title": "서버 배포",
+              "heading_path": [
+                "진행 상황"
+              ],
+              "distance": 0.6048439505603277
+            },
+            "dense_rerank": {
+              "page_title": "서버 배포",
+              "heading_path": [
+                "설정 파일"
+              ],
+              "relevance_score": 0.466796875
+            },
+            "hybrid": {
+              "page_title": "서버 배포",
+              "heading_path": [
+                "프리티어 과금 주의"
+              ],
+              "rrf_score": 0.028373015873015873
+            },
+            "hybrid_rerank": {
+              "page_title": "서버 배포",
+              "heading_path": [
+                "설정 파일"
+              ],
+              "relevance_score": 0.466796875
+            }
+          }
+        },
+        {
+          "query": "React Native로 모바일 앱 배포는 어떻게 했어?",
+          "top1": {
+            "dense": {
+              "page_title": "초기 아이디어",
+              "heading_path": [
+                "4. 플러터 패키지 사용"
+              ],
+              "distance": 0.6091195344924927
+            },
+            "dense_rerank": {
+              "page_title": "서버 배포",
+              "heading_path": [
+                "Github Action을 통해 CI/CD 자동화"
+              ],
+              "relevance_score": 0.45703125
+            },
+            "hybrid": {
+              "page_title": "서버 관련",
+              "heading_path": [],
+              "rrf_score": 0.028958333333333336
+            },
+            "hybrid_rerank": {
+              "page_title": "서버 배포",
+              "heading_path": [
+                "Github Action을 통해 CI/CD 자동화"
+              ],
+              "relevance_score": 0.45703125
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-09-23T03:04:19.645265+00:00",
+    "top_k": 5,
+    "positive": {
+      "num_queries": 13,
+      "averages": {
+        "dense": {
+          "recall": 0.8435897435897436,
+          "mrr": 0.8846153846153846
+        },
+        "dense_rerank": {
+          "recall": 0.9205128205128206,
+          "mrr": 0.9615384615384616
+        },
+        "hybrid": {
+          "recall": 0.8371794871794871,
+          "mrr": 0.9615384615384616
+        },
+        "hybrid_rerank": {
+          "recall": 0.9205128205128206,
+          "mrr": 0.9615384615384616
+        }
+      },
+      "per_query": [
+        {
+          "query": "유저랑 피드백 사이 관계를 왜 일대다로 설계했어?",
+          "metrics": {
+            "dense": {
+              "recall": 0.5,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 0.5,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "커밋 메시지는 어떤 규칙으로 써?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "JUnit 테스트는 어떻게 작성해?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 0.75,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 0.5,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 0.75,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "영상에서 텍스트 정보를 추출하는 방법에는 어떤 것들이 있어?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 0.5,
+              "rank": 2
+            },
+            "dense_rerank": {
+              "recall": 0.75,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 0.75,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 0.75,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "MissingServletRequestPartException 에러는 왜 나?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "배포를 AWS EC2 + Docker 수동 반복에서 GitHub Actions CI/CD로 바꾼 이유가 뭐야?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "자막 없는 영상에서 정보를 뽑을 때 왜 OCR을 썼어?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 0.5,
+              "rank": 2
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 0.5,
+              "rank": 2
+            }
+          }
+        },
+        {
+          "query": "스웨거 페이지 자체에 접속이 안 될 때 어떻게 해결했어?",
+          "metrics": {
+            "dense": {
+              "recall": 0.0,
+              "mrr": 0.0,
+              "rank": null
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 0.5,
+              "rank": 2
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "@ModelAttribute로 파일 업로드 받을 때 왜 바인딩이 안 됐어?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "h5로 저장한 모델을 다시 불러올 때 optimizer 경고가 왜 뜨고 어떻게 해결했어?",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "Docker 이미지 빌드부터 EC2 배포까지 전체 CI/CD 흐름이 어떻게 돼?",
+          "metrics": {
+            "dense": {
+              "recall": 0.6666666666666666,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 0.6666666666666666,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 0.3333333333333333,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 0.6666666666666666,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "사용자가 말하기에서 느끼는 어려움과 그로부터 나온 니즈가 뭐였어?",
+          "metrics": {
+            "dense": {
+              "recall": 0.8,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 0.8,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 0.8,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 0.8,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        },
+        {
+          "query": "스웨거에서 토큰 없이 API 테스트하는 방법 알려줘",
+          "metrics": {
+            "dense": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "dense_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            },
+            "hybrid_rerank": {
+              "recall": 1.0,
+              "mrr": 1.0,
+              "rank": 1
+            }
+          }
+        }
+      ]
+    },
+    "negative": {
+      "num_queries": 2,
+      "cases": [
+        {
+          "query": "쿠버네티스 Ingress 설정은 어떻게 했어?",
+          "top1": {
+            "dense": {
+              "page_title": "서버 배포",
+              "heading_path": [
+                "진행 상황"
+              ],
+              "distance": 0.6048439505603277
+            },
+            "dense_rerank": {
+              "page_title": "서버 배포",
+              "heading_path": [
+                "설정 파일"
+              ],
+              "relevance_score": 0.466796875
+            },
+            "hybrid": {
+              "page_title": "서버 배포",
+              "heading_path": [
+                "프리티어 과금 주의"
+              ],
+              "rrf_score": 0.028373015873015873
+            },
+            "hybrid_rerank": {
+              "page_title": "서버 배포",
+              "heading_path": [
+                "설정 파일"
+              ],
+              "relevance_score": 0.466796875
+            }
+          }
+        },
+        {
+          "query": "React Native로 모바일 앱 배포는 어떻게 했어?",
+          "top1": {
+            "dense": {
+              "page_title": "초기 아이디어",
+              "heading_path": [
+                "4. 플러터 패키지 사용"
+              ],
+              "distance": 0.6090091466903687
+            },
+            "dense_rerank": {
+              "page_title": "서버 배포",
+              "heading_path": [
+                "Github Action을 통해 CI/CD 자동화"
+              ],
+              "relevance_score": 0.45703125
+            },
+            "hybrid": {
+              "page_title": "서버 관련",
+              "heading_path": [],
+              "rrf_score": 0.028958333333333336
+            },
+            "hybrid_rerank": {
+              "page_title": "서버 배포",
+              "heading_path": [
+                "Github Action을 통해 CI/CD 자동화"
+              ],
+              "relevance_score": 0.45703125
+            }
+          }
+        }
+      ]
+    }
+  }
+]

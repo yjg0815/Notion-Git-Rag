@@ -1,0 +1,9 @@
+notion-client==2.2.1
+voyageai==0.3.1
+anthropic==0.34.2
+psycopg[binary]==3.2.1
+python-dotenv==1.0.1
+pgvector==0.3.2
+fastapi==0.112.0
+uvicorn[standard]==0.30.5
+pydantic==2.8.2

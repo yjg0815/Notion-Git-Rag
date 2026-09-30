@@ -1,0 +1,241 @@
+[
+  {
+    "query": "유저랑 피드백 사이 관계를 왜 일대다로 설계했어?",
+    "relevant": [
+      {
+        "page_title": "Domain",
+        "heading_path": [
+          "셀프피드백 업데이트 버전"
+        ]
+      },
+      {
+        "page_title": "Domain",
+        "heading_path": []
+      }
+    ]
+  },
+  {
+    "query": "커밋 메시지는 어떤 규칙으로 써?",
+    "relevant": [
+      {
+        "page_title": "Git Commit Message Rule ",
+        "heading_path": []
+      }
+    ]
+  },
+  {
+    "query": "JUnit 테스트는 어떻게 작성해?",
+    "relevant": [
+      {
+        "page_title": "참고) 기본적인 테스트 코드 짜는 법",
+        "heading_path": []
+      },
+      {
+        "page_title": "참고) 기본적인 테스트 코드 짜는 법",
+        "heading_path": [
+          "검증하기 → Assertions 일단 친다"
+        ]
+      },
+      {
+        "page_title": "참고) 기본적인 테스트 코드 짜는 법",
+        "heading_path": [
+          "테스트 클래스에 테스트 만들기 → 테스트 어노테이션 사용!"
+        ]
+      },
+      {
+        "page_title": "참고) 기본적인 테스트 코드 짜는 법",
+        "heading_path": [
+          "테스트 코드 작성"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "영상에서 텍스트 정보를 추출하는 방법에는 어떤 것들이 있어?",
+    "relevant": [
+      {
+        "page_title": "외부 API, 라이브러리",
+        "heading_path": [
+          "6. 동영상 → 이미지 추출"
+        ]
+      },
+      {
+        "page_title": "외부 API, 라이브러리",
+        "heading_path": [
+          "5. OCR"
+        ]
+      },
+      {
+        "page_title": "백엔드 회의 - 백엔드 내부 기능 세분화",
+        "heading_path": []
+      },
+      {
+        "page_title": "1차 멘토링 - 0926",
+        "heading_path": [
+          "✅ 개발 관련",
+          "백엔드 + AI 여쭤보고 싶은 점"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "MissingServletRequestPartException 에러는 왜 나?",
+    "relevant": [
+      {
+        "page_title": "스프링",
+        "heading_path": [
+          "해결"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "배포를 AWS EC2 + Docker 수동 반복에서 GitHub Actions CI/CD로 바꾼 이유가 뭐야?",
+    "relevant": [
+      {
+        "page_title": "서버 배포",
+        "heading_path": [
+          "Github Action을 통해 CI/CD 자동화"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "자막 없는 영상에서 정보를 뽑을 때 왜 OCR을 썼어?",
+    "relevant": [
+      {
+        "page_title": "1차 멘토링 - 0926",
+        "heading_path": [
+          "✅ 개발 관련",
+          "백엔드 + AI 여쭤보고 싶은 점"
+        ]
+      },
+      {
+        "page_title": "외부 API, 라이브러리",
+        "heading_path": [
+          "6. 동영상 → 이미지 추출"
+        ]
+      },
+      {
+        "page_title": "백엔드 회의 - 백엔드 내부 기능 세분화",
+        "heading_path": []
+      }
+    ]
+  },
+  {
+    "query": "스웨거 페이지 자체에 접속이 안 될 때 어떻게 해결했어?",
+    "relevant": [
+      {
+        "page_title": "스웨거",
+        "heading_path": []
+      }
+    ]
+  },
+  {
+    "query": "@ModelAttribute로 파일 업로드 받을 때 왜 바인딩이 안 됐어?",
+    "relevant": [
+      {
+        "page_title": "스프링",
+        "heading_path": [
+          "해결"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "h5로 저장한 모델을 다시 불러올 때 optimizer 경고가 왜 뜨고 어떻게 해결했어?",
+    "relevant": [
+      {
+        "page_title": "AI",
+        "heading_path": [
+          "해결"
+        ]
+      },
+      {
+        "page_title": "AI",
+        "heading_path": [
+          "해결"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Docker 이미지 빌드부터 EC2 배포까지 전체 CI/CD 흐름이 어떻게 돼?",
+    "relevant": [
+      {
+        "page_title": "서버 배포",
+        "heading_path": [
+          "Github Action을 통해 CI/CD 자동화"
+        ]
+      },
+      {
+        "page_title": "Final Report - Team 2",
+        "heading_path": [
+          "🐞 개발 도중 발생했던 문제 및 해결 방법",
+          "CI/CD 파이프라인 구축"
+        ]
+      },
+      {
+        "page_title": "Final Report - Team 2",
+        "heading_path": [
+          "💡 기능&구현",
+          "🌐 시스템 아키텍처"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "사용자가 말하기에서 느끼는 어려움과 그로부터 나온 니즈가 뭐였어?",
+    "relevant": [
+      {
+        "page_title": "11차회의 - 최종 주제 선정 및 기능 정리",
+        "heading_path": [
+          "Pain Point"
+        ]
+      },
+      {
+        "page_title": "최종 아이디어 - 말잘러 프로젝트",
+        "heading_path": [
+          "Pain Point"
+        ]
+      },
+      {
+        "page_title": "경진대회",
+        "heading_path": [
+          "1️⃣ 과제 목적"
+        ]
+      },
+      {
+        "page_title": "Final Report - Team 2",
+        "heading_path": [
+          "🌠 배경 및 기획",
+          "제안 배경"
+        ]
+      },
+      {
+        "page_title": "Final Report - Team 2",
+        "heading_path": [
+          "🍑 프로젝트 개요",
+          "✨ 키워드"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "스웨거에서 토큰 없이 API 테스트하는 방법 알려줘",
+    "relevant": [
+      {
+        "page_title": "스웨거",
+        "heading_path": []
+      }
+    ]
+  },
+  {
+    "query": "쿠버네티스 Ingress 설정은 어떻게 했어?",
+    "relevant": []
+  },
+  {
+    "query": "React Native로 모바일 앱 배포는 어떻게 했어?",
+    "relevant": []
+  }
+]
